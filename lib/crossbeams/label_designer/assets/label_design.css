@@ -212,6 +212,7 @@ label[for='canvas_width'], label[for='canvas_height'] {
   width: 20px;
   display: inline-block;
 }
+/*
 .variable-info-form select {
   background-color: lightgrey;
   margin: 0.2em;
@@ -220,10 +221,12 @@ label[for='canvas_width'], label[for='canvas_height'] {
   padding-bottom: 0.1em;
   min-width: 5em;
 }
+*/
 .popupwindow_container {
   z-index: 5;
 }
 /* --- Variable Dialog styling */
+/*
 fieldset.varFieldSet {
   min-width: 30em;
 }
@@ -249,6 +252,7 @@ div.varSetFieldGroup .third {
 #barcode_width_factor {
   width: 5em;
 }
+*/
 /* --- END of variable dialog styling */
 
 /* --- START of variable menu styling */
@@ -302,7 +306,6 @@ div.varSetFieldGroup .third {
 }
 
 .options-dropdown-content a:hover {
-  /* background-color: #f1f1f1; */
   background-color: #d6d6e0;
 }
 .options-dropdown:hover .options-dropdown-content {display: block;}

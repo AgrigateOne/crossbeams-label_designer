@@ -55,6 +55,12 @@ module Crossbeams
 
             LabelDesigner.init(labelConfig);
             #{loader}
+            // document.addEventListener('DOMContentLoaded', function () {
+            //   const myDialogImg = document.getElementById("image-dialog-form");
+            //   const myDialogHeaderImg = document.getElementById("dialogHeadI");
+            //   makeDraggable(myDialogImg, myDialogHeaderImg);
+            // }
+
           </script>
         JS
       end
