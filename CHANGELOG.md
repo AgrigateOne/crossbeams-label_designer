@@ -8,8 +8,12 @@ and this project adheres roughly to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 ### Added
 ### Changed
-- Small changes to `Choices` selectbox handling in javascript for version 10.2.0
 ### Fixed
+
+## [2.0.2] - 2025-11-12
+### Changed
+- Upgrade to Ruby 3.4.7
+- Small changes to `Choices` selectbox handling in javascript for version 10.2.0
 
 ## [2.0.1] - 2023-02-22
 ### Fixed
