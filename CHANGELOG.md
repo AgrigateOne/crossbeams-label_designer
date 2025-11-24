@@ -10,6 +10,10 @@ and this project adheres roughly to [Semantic Versioning](http://semver.org/).
 ### Changed
 ### Fixed
 
+## [2.0.3] - 2025-11-24
+### Changed
+- Move to Tailwind CSS
+
 ## [2.0.2] - 2025-11-12
 ### Changed
 - Upgrade to Ruby 3.4.7

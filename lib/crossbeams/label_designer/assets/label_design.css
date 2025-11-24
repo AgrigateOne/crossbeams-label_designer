@@ -205,13 +205,11 @@
   width: 75px;
   opacity: 1;
 }
-#zoom_percentage {
-  float: left;
-}
 label[for='canvas_width'], label[for='canvas_height'] {
   width: 20px;
   display: inline-block;
 }
+/*
 .variable-info-form select {
   background-color: lightgrey;
   margin: 0.2em;
@@ -220,10 +218,12 @@ label[for='canvas_width'], label[for='canvas_height'] {
   padding-bottom: 0.1em;
   min-width: 5em;
 }
+*/
 .popupwindow_container {
   z-index: 5;
 }
 /* --- Variable Dialog styling */
+/*
 fieldset.varFieldSet {
   min-width: 30em;
 }
@@ -249,6 +249,7 @@ div.varSetFieldGroup .third {
 #barcode_width_factor {
   width: 5em;
 }
+*/
 /* --- END of variable dialog styling */
 
 /* --- START of variable menu styling */
@@ -282,7 +283,7 @@ div.varSetFieldGroup .third {
   display: none;
   position: absolute;
   right: 0;
-  top: 2rem;
+  top: 2.5rem;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -298,11 +299,10 @@ div.varSetFieldGroup .third {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  width: max-content;
+  /* width: max-content; */
 }
 
 .options-dropdown-content a:hover {
-  /* background-color: #f1f1f1; */
   background-color: #d6d6e0;
 }
 .options-dropdown:hover .options-dropdown-content {display: block;}
