@@ -218,7 +218,8 @@
 
         <div> <!-- Start of right column -->
       <div id="ld_help_wrap" hidden> <!-- href="/help/system/rmd/rmd_properties" -->
-<a id="ld_help" href="" class="ml-3 text-sm link dim rounded-md px-3 py-2 inline-block text-white bg-blue" data-help-link="Y" target="cbf-help"><svg class="w-6 h-6 fill-current cbl-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm2-13c0 .28-.21.8-.42 1L10 9.58c-.57.58-1 1.6-1 2.42v1h2v-1c0-.29.21-.8.42-1L13 9.42c.57-.58 1-1.6 1-2.42a4 4 0 1 0-8 0h2a2 2 0 1 1 4 0zm-3 8v2h2v-2H9z"></path></svg>
+
+  <a id="ld_help" href="" class="<%= css_config.css_class(:button_primary) %>" data-help-link="Y" target="cbf-help"><%= Crossbeams::Layout::Icon.new(:info, css_class: 'inline').render %>
   Help</a></div>
         <div id="upgradeNote" class="orange ml-2" hidden>
           <p class="b">Please note: this label has been converted from an older version.</p>
