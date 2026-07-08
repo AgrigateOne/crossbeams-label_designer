@@ -7,6 +7,7 @@ and this project adheres roughly to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 ### Added
+- A label variable can optionally have a choice of output format - to be chosen via a dropdown
 ### Changed
 ### Fixed
 
