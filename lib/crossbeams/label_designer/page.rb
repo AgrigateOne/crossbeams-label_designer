@@ -42,6 +42,8 @@ module Crossbeams
               pxPerMm: #{px_per_mm},
               helpURL: #{help_url},
               savePath: '#{Config.config.save_path}',
+              formatRules: #{Config.config.format_rules.to_json},
+              formatDescriptions: #{Config.config.format_descriptions.to_json},
             };
 
             /*
