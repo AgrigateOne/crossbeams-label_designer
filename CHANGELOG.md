@@ -10,6 +10,10 @@ and this project adheres roughly to [Semantic Versioning](http://semver.org/).
 ### Changed
 ### Fixed
 
+## [2.0.4] - 2026-07-09
+### Added
+- A label variable can optionally have a choice of output format - to be chosen via a dropdown
+
 ## [2.0.3] - 2025-11-24
 ### Changed
 - Move to Tailwind CSS

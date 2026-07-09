@@ -324,6 +324,10 @@
                   <label for="static_barcode_value" class="block <%= Crossbeams::Layout::StylesConfig.css_class(:label)%>">Static Barcode text</label>
                   <input type="text" id="static_barcode_value" name="static_barcode_value" class="<%= Crossbeams::Layout::StylesConfig.css_class(:input).sub('w-full', '')%>"/>
                 </div>
+                <div id="label_var_format_wrapper">
+                  <label for="label_var_format" class="block <%= Crossbeams::Layout::StylesConfig.css_class(:label)%>">Format</label>
+                  <select id="label_var_format"></select>
+                </div>
                 <div id="white_on_black_wrapper" class="varSetFieldGroup mt-2">
                   <input type="checkbox" name="white_on_black" id="white_on_black" value="true" class="<%= Crossbeams::Layout::StylesConfig.css_class(:checkbox)%>">
                   <label for="white_on_black">Print text-white on black?</label>
