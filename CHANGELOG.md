@@ -10,6 +10,10 @@ and this project adheres roughly to [Semantic Versioning](http://semver.org/).
 ### Changed
 ### Fixed
 
+## [2.1.0] - 2026-10-29
+### Changed
+- Upgrade to Ruby 4.0.7
+
 ## [2.0.4] - 2026-07-09
 ### Added
 - A label variable can optionally have a choice of output format - to be chosen via a dropdown
